@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Loopstudios landing page</title>
+
+
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Roboto:wght@100&display=swap');
+  </style>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+  </style>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  <!-- for mobile -->
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+  <div class="parent">
+
+
+  <div class="container-top">
+    <!-- Navigation bar -->
+    <h3 class="brand">loopstudios</h3>
+    <div class="topnav">
+      <a class="active" href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a href="#Support">Support</a>
+    </div>
+
+    <!-- navigation for mobile -->
+
+    <!-- Top Navigation Menu -->
+<div class="topnav-mobile">
+  <a href="#home" class="active">loopstudios</a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    <a href="#Support">Support</a>>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="dropdownFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+
+    <!-- Home page image -->
+    <img src="images\desktop\image-hero.jpg" class="image-hero desktop-image">
+    <img src="images\mobile\image-hero.jpg" alt="image-hero" class="image-hero mobile-image">
+    <div class="text-block-1">
+      <h1>IMMERSIVE</h1>
+      <h1>EXPERINCES</h1>
+      <h1>THAT DELIVER</h1>
+    </div>
+  </div>
+
+  <div class="container-middle">
+    <img src="images\desktop\image-interactive.jpg" class="image-interactive desktop-image">
+    <img src="images\mobile\image-interactive.jpg" class="image-interactive mobile-image">
+    <div class="text-block-2">
+      <h3 class="about-text-title">THE LEADER IN</h3>
+      <h3 class="about-text-title">INTERACTIVE VR</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat.</p>
+    </div>
+  </div>
+
+  <div class="container-bottom">
+    <h1 class="creation-text">OUR CREATION</h1>
+    <button type="button" name="button" class="see-all-btn desktop-btn">SEE ALL</button>
+
+    <div class="row-1">
+      <div class="column">
+        <img src="images\desktop\image-curiosity.jpg" style="width:100%" class="desktop-image">
+
+        <p class="curiosity">THE <br> CURIOSITY</p>
+      </div>
+      <div class="column">
+        <img src="images\desktop\image-deep-earth.jpg" style="width:100%" class="desktop-image">
+
+        <P class="deep-earth">DEEP <br>EARTH</P>
+      </div>
+      <div class="column">
+        <img src="images\desktop\image-fisheye.jpg" style="width:100%" class="desktop-image">
+
+        <P class="fisheye">MAKE IT <br> FISHEYE</P>
+      </div>
+      <div class="column">
+        <img src="images\desktop\image-from-above.jpg" style="width:100%" class="desktop-image">
+
+        <P class="from-above">FROM UP <br> ABOVE VR</P>
+      </div>
+    </div>
+    <!-- moobile images -->
+    <img src="images\mobile\image-curiosity.jpg" class="mobile-image creation-img">
+    <img src="images\mobile\image-deep-earth.jpg" class="mobile-image creation-img">
+    <img src="images\mobile\image-fisheye.jpg" class="mobile-image creation-img">
+    <img src="images\mobile\image-from-above.jpg" class="mobile-image creation-img">
+
+    <div class="row-2">
+      <div class="column">
+        <img src="images\desktop\image-grid.jpg" style="width:100%" class="desktop-image">
+
+        <p class="grid">THE <br>GRID</p>
+      </div>
+      <div class="column">
+        <img src="images\desktop\image-night-arcade.jpg" style="width:100%" class="desktop-image">
+
+        <p class="night-arcade">NIGHT<br>ARCADE</p>
+      </div>
+      <div class="column">
+        <img src="images\desktop\image-pocket-borealis.jpg" style="width:100%" class="desktop-image">
+
+        <p class="pocket-borealis">POCKET <br> BOREALIS</p>
+      </div>
+      <div class="column">
+        <img src="images\desktop\image-soccer-team.jpg" style="width:100%" class="desktop-image">
+
+        <p class="soccer-team">SOCCER <br> TEAM VR</p>
+      </div>
+    </div>
+    <!-- mobile images -->
+    <img src="images\mobile\image-grid.jpg" class="mobile-image creation-img">
+    <img src="images\mobile\image-night-arcade.jpg" class="mobile-image creation-img">
+    <img src="images\mobile\image-pocket-borealis.jpg" class="mobile-image creation-img">
+    <img src="images\mobile\image-soccer-team.jpg" class="mobile-image creation-img">
+
+    <button type="button" name="button" class="see-all-btn desktop-btn">SEE ALL</button>
+    <button type="button" name="button" class="see-all-btn mobile-btn">SEE ALL</button>
+  </div>
+
+  </div>
+
+  <footer id="desktop-footer">
+    <h5 class="bottom-brand">loopstudios</h5>
+    <div class="bottomnav">
+      <a class="active" href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a href="#Support">Support</a>
+    </div>
+    <div class="contact">
+      <a href="https://www.facebook.com/"><img src="images\icon-facebook.svg" class="facebook"></a>
+      <a href="https://www.instagram.com/?hl=en"><img src="images\icon-instagram.svg" class="instagram"></a>
+      <a href="https://www.pinterest.com/"><img src="images\icon-pinterest.svg" class="pintrest"></a>
+    </div>
+  </footer>
+
+  <footer id="mobile-footer">
+    <h5 class="bottom-brand">loopstudios</h5>
+
+      <a class="active mobile-bottom-nav" href="#home">Home</a><br>
+      <a href="#about" class="mobile-bottom-nav">About</a><br>
+      <a href="#contact" class="mobile-bottom-nav">Contact</a><br>
+      <a href="#Support" class="mobile-bottom-nav">Support</a><br>
+
+    <div class="contact">
+      <a href="https://www.facebook.com/"><img src="images\icon-facebook.svg" class="facebook"></a>
+      <a href="https://www.instagram.com/?hl=en"><img src="images\icon-instagram.svg" class="instagram"></a>
+      <a href="https://www.pinterest.com/"><img src="images\icon-pinterest.svg" class="pintrest"></a>
+    </div>
+  </footer>
+
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
